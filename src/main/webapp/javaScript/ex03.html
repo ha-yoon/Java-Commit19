@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+	div{
+		display: inline-block;
+		height: 20px;
+		width: 70px;
+	}
+
+</style>
+
+</head>
+<body>
+
+	<!-- 
+		이중for문과 document.write();를 사용해서
+		웹 브라우저에 2 ~ 9단까지 구구단 출력하기
+	 -->
+	 
+	 <script type="text/javascript">
+	 
+	 for(var num = 1; num <= 9; num++){
+		 
+		 for(var dan = 2; dan <=9; dan++){
+			 document.write("<div>"+ dan + "X" + num + "=" + dan*num + "</div>");
+		 }
+		 
+		 document.write("<br>");
+	 }
+		 
+		 
+		 
+	 </script>
+	 
+
+</body>
+</html>
